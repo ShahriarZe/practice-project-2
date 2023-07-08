@@ -17,17 +17,28 @@
     display: flex;
     justify-content: space-around;
     list-style: none;
-    gap: 30px;
+    gap: 40px;
     font-size: 25px;
+}
+nav li:hover{
+    background-color: lightgray;
+    color: tomato;
+    border-radius: 5px;
+    padding: 5px 5px;
+    cursor: pointer;
 }
 
 /* Main Section */
 
 /* Main 1st Part */
-.main-content{
+
+.main-section{
     height: 100vh;
     background-image: url('./asset/image/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
