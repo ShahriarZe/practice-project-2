@@ -42,3 +42,54 @@ nav li:hover{
     justify-content: center;
     align-items: center;
 }
+.main-content{
+    text-align: center;
+}
+
+.main-content-heading{
+    font-size: 80px;
+    font-weight: 800;
+    color: white;
+}
+.main-content-description{
+    width: 50%;
+    margin: auto;
+    font-size: 25px;
+    color: white;
+}
+.primary-button{
+    padding: 10px 25px;
+    font-size: 20px;
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.two{
+    background-color: white;
+    color: black;
+}
+span{
+    color: tomato;
+}
+
+/* Main 2nd Part */
+
+.service-container{
+    display: flex;
+    justify-content: space-around;
+}
+.boxes{
+    display: flex;
+}
+.boxes img{
+    width:100px ;
+}
+.box-item{
+    height: 180px;
+    width: 220px;
+    background-color: rgb(68, 64, 64);
+    border: 2px solid white;
+    padding: 20px;
+    text-align: center;
+}
