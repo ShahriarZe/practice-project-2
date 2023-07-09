@@ -9,7 +9,7 @@
 .nav-content{
     display: flex;
     justify-content: space-around;
-    background-color: rgb(177, 171, 171);
+    background-color: rgb(222, 211, 211);
     padding: 20px;
     align-items: center;
 }
@@ -141,7 +141,7 @@ span{
 }
 .boxes{
     display: flex;
-    gap: 5px;
+    gap: 10px;
 }
 
 /* Main 3rd Part */
@@ -201,6 +201,8 @@ span{
 .card{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 80px;
+    margin-top: 40px;
 }
 .card-item{
     height: 500px;
@@ -227,3 +229,51 @@ span{
 }
 
 /* Footer Section */
+footer{
+    height: 100vh;
+    background-image: url("./asset/image/footer-bg.png"),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-part li{
+    list-style: none;
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.footer-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    width: 90%;
+    margin: auto;
+    border-bottom: 2px solid white;
+    padding-bottom: 30px;
+    margin-top: 400px;
+}
+.footer-part h4{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.footer-part p{
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.footer-part a{
+    color: white;
+    font-size: 30px;
+    margin-right: 20px;
+}
+.copyright{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
