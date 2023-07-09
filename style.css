@@ -34,7 +34,8 @@ nav li:hover{
 
 .main-section{
     height: 100vh;
-    background-image: url('./asset/image/background.jpg');
+    background-image: url('./asset/image/background.jpg'),linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -76,20 +77,153 @@ span{
 /* Main 2nd Part */
 
 .service-container{
+    height: 100vh;
     display: flex;
     justify-content: space-around;
+    background-image: url("./asset/image/footer-bg.png"),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    color: white;
+    align-items: center;
+    padding:20px;
 }
-.boxes{
+
+.service-heading{
+    font-size: 40px;
+    margin: 20px;
+}
+.service-list{
+    font-size: 25px;
+    margin: 30px;
+}
+
+.author{
     display: flex;
 }
-.boxes img{
+.author-details{
+    display: flex;
+    align-items: center;
+    border-right: 5px solid tomato;
+}
+.author-button{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+}
+.author-details{
+    padding: 20px;
+}
+.author-details img{
+    width: 100px;
+    border-radius: 50px;
+}
+.author-primary-button{
+    padding: 10px 25px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+}
+.inner-box img{
     width:100px ;
 }
 .box-item{
-    height: 180px;
-    width: 220px;
-    background-color: rgb(68, 64, 64);
+    color: black;
+    height: 190px;
+    width: 230px;
+    background-color:white;
     border: 2px solid white;
-    padding: 20px;
+    padding: 30px 20px;
     text-align: center;
+    border-radius: 8px;
+    margin-top: 5px;
+    font-size: 20px;
 }
+.boxes{
+    display: flex;
+    gap: 5px;
+}
+
+/* Main 3rd Part */
+.appointment{
+    display: flex;
+    justify-content: center;
+    padding: 60px 80px;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    background-color: tomato;
+    border-radius: 20px;
+    margin-top:-100px;
+}
+.phone-call{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid grey;
+    padding-right: 20px;
+}
+.phone-call img{
+    width: 80px;
+}
+.phone-call h3{
+    font-size: 30px;
+} 
+.appointment-heading{
+    font-size: 10px;
+}
+.appointment-description{
+    font-size: 15px;
+    padding: 0px 30px;
+    margin: auto;
+}
+
+/* Main 4th Part */
+
+.blog-container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 40px;
+    margin-top: 40px;
+}
+.blog-container h1{
+    font-size: 45px;
+    font-weight: 600;
+}
+.blog-container p{
+    font-size: 25px;
+}
+
+/* Main 5th Part */
+
+
+.card{
+    display: flex;
+    justify-content: space-around;
+}
+.card-item{
+    height: 500px;
+    width: 400px;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px grey;
+}
+.card-item img{
+    width: 100%;
+}
+.card-description{
+    padding: 20px;
+}
+.card-image{
+    border-radius:10px ;
+}
+.card-item h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.card-item p{
+    font-size: 20px;
+}
+
+/* Footer Section */
